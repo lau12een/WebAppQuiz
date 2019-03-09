@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>AUTISM QUIZ APP</title>
+    <meta name='Autism Quiz' content='Quiz about Autism'>
+    <link href='main.css' rel='stylesheet' type='text/css'/>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  </head>
+  
+<body>
+  <main role='main'>
+      <!--------INTRODUCTION SECTION------->
+    <section id='intro-page' class='maincontainer'>
+      <header>
+      <h1>Autism Brain Buster</h1>
+      <img class='banner' src='https://skillsonthehill.com/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=https://skillsonthehill.com/wp-content/uploads/2017/04/Autism-Awareness-Banner.jpg&w=882&h=373&zc=1&q=100' alt='autism awareness'>
+      <h3 class='intro-text'>Do you think you know about Autism?</h3>
+      </header>
+      <button class='button'>We'll See About That!</button>
+    </section>
+    <!---------QUESTION SECTION-->
+    <section id='question-page' class='hidden maincontainer'>
+      <form  id='autism-form' method='get'>
+      <fieldset name='question-set'>
+        <div id='quiz-question' class='autism-question'></div>
+        <div class='autism-answers' role='radiogroup'></div>
+        <button id='submit-answer' class='button hidden disabled' type='submit' disabled>Final Answer</button>
+      </fieldset>
+      </form>
+     
+      <button id='next-question' class='button hidden' type='submit'>Next</button>
+
+      <!----FEEDBACK SECTION --->
+      <div id='feedbackcorrect' class='all-feedback hidden'>
+      </div>
+    
+ 
+      <div id='feedbackincorrect' class='hidden'><br></div>
+
+      
+      <div class='results-counter'></div>
+      
+      
+
+    </section>
+
+
+      <!------- final page ---->
+    
+    <section id='final-page' class='hidden maincontainer'>
+      <h1>Did you reach mastery?(80% OR HIGHER)</h1>
+      <div id='final-correct'><br></div>
+      <div>
+      <img class='puzzle' src='https://assets.parents.com/s3fs-public/styles/nfp_1080_portrait/public/images/550_102206306.jpg?6uTcsM5NskC6vr9VceqJi0ppQNTyEhKF' alt='puzzle piece'/><br>
+      <p class='second-chance'>Want to play again?</p></div>
+      <button id='retake' type='submit'>Have Another Go!</button>
+    </section>
+    
+  </main>  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src='index.js'></script>
+  </body>
+</html>

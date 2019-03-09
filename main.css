@@ -1,0 +1,120 @@
+body * {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: white;
+  background: url(https://www.appliedbehavioranalysisprograms.com/wp-content/uploads/2018/02/first-case-autism.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.maincontainer {
+  width: 90%;
+  height: 75%;
+  background-color: rgba(143, 170, 229, 0.8);
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.banner {
+  height: auto;
+  width: 50%;
+}
+
+legend {
+  font-size: 24px;
+}
+
+fieldset {
+  border: none;
+}
+
+.button {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(53, 185, 108);
+  font-size: 20px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.autism-question {
+  padding-left: 50px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.autism-answers {
+  text-align: left;
+  padding-left: 50px;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.button.disabled {
+  opacity: 0.50; 
+  cursor: not-allowed;
+}
+
+.results-counter {
+  font-size: 20px;
+  text-align: center;
+}
+
+.all-feedback {
+  font-size: 18px;
+  margin-top: 10px;
+  position: relative;
+  line-height: 150%;
+}
+
+.pug {
+  height: auto;
+  width: 35%;
+  margin-top: -15px;
+}
+
+.cat {
+  height: auto;
+  width: 30%;
+  margin-top: -25px;
+}
+
+#final-correct {
+  margin-top: -30px;
+}
+
+.puzzle {
+  height: auto;
+  width: 40%;
+}
+
+.second-chance {
+  font-size: 18px;
+}
+
+#retake {
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
